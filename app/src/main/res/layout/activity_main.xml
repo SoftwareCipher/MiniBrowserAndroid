@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/urlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/style_edit_text_url"
+        android:cursorVisible="true"
+        android:ems="30"
+        android:hint="@string/url"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="15dip"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/open_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/urlText"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/style_buttons"
+        android:padding="10dip"
+        android:shadowRadius="5"
+        android:textSize="18dp"
+        android:text="@string/openPage"
+        android:textColor="@color/white"
+        app:cornerRadius="10dip" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/open_url"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/style_buttons"
+        android:padding="10dip"
+        android:shadowRadius="5"
+        android:textSize="18dp"
+        android:text="@string/closeApp"
+        android:textColor="@color/white"
+        app:cornerRadius="10dip" />
+
+    <LinearLayout
+        android:id="@+id/linearButtons"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/close"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/dogs"
+            android:layout_marginHorizontal="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/openFragDogs"
+            android:background="@drawable/style_buttons"
+            android:padding="10dip"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:id="@+id/cats"
+            android:layout_marginHorizontal="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_buttons"
+            android:padding="10dip"
+            android:shadowRadius="5"
+            android:text="@string/openFragCats"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearButtons"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp">
+    </FrameLayout>
+</RelativeLayout>

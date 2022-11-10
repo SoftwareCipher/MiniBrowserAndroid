@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MiniBrowserAndroid</string>
+    <string name="url">URL Сторінка</string>
+    <string name="openPage">Відкрити сторінку</string>
+    <string name="openFragCats">Котики</string>
+    <string name="openFragDogs">Песики</string>
+    <string name="closeApp">Закрити додаток</string>
+    <string name="cats">Кіт — рід хижих ссавців родини
+        котових. У деяких старіших системах класифікації до нього
+        зараховували всіх представників малих кішо, проте зараз
+        безпосередньо до роду відносяться
+        лише кілька видів невеликих тварин, що мешкають у Євразії та Африці. </string>
+    <string name="dogs">Пес, або собака
+        — рід ссавців родини псових, який обєднує звірів з добре
+        розвиненими довгими кінцівками, пристосованими до швидкого бігу (кігті невтяжні).
+        Вони переслідують здобич, часто утворюють сімї та зграї.
+        Цей рід включає вовків, шакала, койота, а також свійського пса.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
